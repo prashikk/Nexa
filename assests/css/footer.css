@@ -1,0 +1,20 @@
+#layout-footer {
+  color: #fff; /* White text color */
+  background: #405de6; /* Instagram Threads primary color */
+  padding: 10px 20px; /* Increased padding for better spacing */
+  display: flex;
+  justify-content: center;
+}
+
+#layout-footer a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+}
+
+#layout-footer .footer-nav ul {
+  list-style: none;
+}
+
+#layout-footer .footer-nav ul li {
+  margin: 0 10px; /* Adjusted margin for better spacing */
+}

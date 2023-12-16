@@ -1,0 +1,81 @@
+/* Apply some basic styling to the container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* Change background color to white */
+  border-radius: 10px; /* Increase border-radius for a softer look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a more modern sans-serif font */
+}
+
+/* Style the headings */
+h1 {
+  color: #405de6; /* Instagram Threads primary color */
+}
+
+h2 {
+  color: #585858; /* Dark gray for subheadings */
+}
+
+/* Style the form inputs and button */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 14px; /* Adjust padding for input fields */
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Lighter border color */
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px; /* Adjust padding for the button */
+  background-color: #405de6; /* Instagram Threads primary color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the "Forget Password" link */
+a {
+  text-decoration: none;
+  color: #585858; /* Dark gray for link color */
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Style the Google sign-in button */
+button {
+  background-color: #ea4335; /* Google red color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px; /* Adjust padding for the button */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c23321; /* Darker red on hover */
+}
+
+/* Add some spacing */
+p {
+  margin-top: 20px;
+}
+
+/* Add a horizontal line */
+hr {
+  height: 4px;
+  background-color: #ddd; /* Lighter gray for the horizontal line */
+  border: none;
+  margin: 20px 0;
+}

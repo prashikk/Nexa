@@ -1,0 +1,63 @@
+#container {
+    display: flex;
+    background-image: linear-gradient(#fafafa, #e8e8e8); /* Light gray background gradient */
+}
+
+#container #feed-posts {
+    width: 70%; /* Adjusted width for the main feed */
+    padding: 20px; /* Increased padding for better spacing */
+}
+
+#container #user-friends {
+    width: 30%; /* Adjusted width for the user friends section */
+    padding: 20px; /* Increased padding for better spacing */
+    border-left: 2px solid rgba(0, 0, 0, 0.1); /* Lighter border color */
+    height: auto;
+}
+
+#user-friends a {
+    text-decoration: none;
+    color: #405de6; /* Instagram Threads primary color */
+}
+
+img {
+    height: 35px; /* Slightly larger user profile images */
+    width: 35px; /* Slightly larger user profile images */
+    border-radius: 50%;
+}
+
+#new-post-form {
+    border: 2px solid #ddd; /* Lighter border color */
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #fff; /* White background color */
+}
+
+textarea {
+    background-color: #f0f0f0; /* Light gray background for textarea */
+    border: 1px solid #ddd; /* Lighter border color */
+}
+
+#new-post-form input[type="submit"] {
+    background-color: #405de6; /* Instagram Threads primary color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Increased padding for better spacing */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new-post-form input[type="submit"]:hover {
+    background-color: #3a4cc0; /* Darker shade on hover */
+}
+
+#post-wrapper {
+    border: 1px solid #ddd; /* Lighter border color */
+    margin: 20px;
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #fff; /* White background color */
+}
+
+#post-wrapper a {
+    text-decoration: none;
+    color: #405de6; /* Instagram Threads primary color */
+}

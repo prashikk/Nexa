@@ -1,0 +1,92 @@
+#chat-box{
+    width: 250px;
+    height: 350px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#chat-head{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+}
+
+#friend-name{
+    text-align: center;
+    color: white;
+}
+
+#message{
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.info-msg{
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    opacity: 0.3;
+}
+
+.line-self, .line-other{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.line-other{
+    justify-content: start;
+}
+
+.other, .self{
+    width: max-content;
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 7px 5px;
+    margin: 5px;
+    color: white;
+}
+
+.other{
+    background-color: #919194;
+}
+
+.self{
+    background-color: #007bff;
+}
+
+#message-input{
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#message-input input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
+#message-input button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    border-top: 1px solid black;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+}

@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-color: #fafafa; /* Light gray background color */
+}
+
+body #layout-main {
+    min-height: 80vh;
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #fff; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}

@@ -1,0 +1,81 @@
+/* Apply some basic styling to the container */
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; /* Increase border-radius for a softer look */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 28px;
+  color: #405de6; /* Instagram Threads primary color */
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+button {
+  width: 95%;
+  padding: 14px; /* Adjust padding for input fields */
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Lighter border color */
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="submit"],
+button {
+  background-color: #405de6; /* Instagram Threads primary color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #3a4cc0; /* Darker shade on hover */
+}
+
+hr {
+  height: 4px;
+  background-color: #ddd; /* Lighter gray for the horizontal line */
+  border: none;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #405de6; /* Instagram Threads primary color */
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #ea4335; /* Google red color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c23321; /* Darker red on hover */
+}

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: #fafafa; /* Light gray background color */
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    border: 5px double #405de6; /* Instagram Threads primary color */
+    width: 120px; /* Slightly increase width for a larger profile picture */
+    height: 120px; /* Slightly increase height for a larger profile picture */
+    margin: 20px auto 10px; /* Adjust margin for centering and spacing */
+}
